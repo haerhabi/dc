@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>新世界</title>
+<style type="text/css">
+<!--
+body {
+	margin: 0px;
+	width: 1200px;
+	text-decoration: none;
+	padding: 0px;
+}
+#nav1 {
+	background-color: #FFFFFF;
+	height: 50px;
+	width: 1200px;
+}
+#nav1 #nav1left {
+	background-image: url(1.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 50px;
+	width: 100px;
+	margin-left: 50px;
+	padding-left: 50px;
+	float: left;
+}
+.a1 {
+	font-size: 24px;
+	line-height: 50px;
+	font-weight: bolder;
+	color: #000000;
+}
+#nav1 #nav1right {
+	float: right;
+	height: 50px;
+	width: 600px;
+	margin-right: 50px;
+}
+#nav1 #nav1right #nav1right1 {
+	float: left;
+	height: 46px;
+	width: 80px;
+	margin-left: 20px;
+	font-size: 18px;
+	line-height: 50px;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #CC0000;
+}
+#nav1 #nav1right #nav1right2 {
+	float: left;
+	height: 46px;
+	width: 80px;
+	margin-left: 20px;
+	font-size: 18px;
+	line-height: 50px;
+}
+#nav1 #nav1right #nav1right3 {
+	float: left;
+	height: 46px;
+	width: 80px;
+	margin-left: 20px;
+	font-size: 18px;
+	line-height: 50px;
+}
+#nav1 #nav1right #nav1right4 {
+	float: left;
+	height: 46px;
+	width: 80px;
+	margin-left: 20px;
+	font-size: 18px;
+	line-height: 50px;
+}
+#nav1 #nav1right #nav1right5 {
+	float: left;
+	height: 46px;
+	width: 80px;
+	margin-left: 20px;
+	font-size: 18px;
+	line-height: 50px;
+}
+#nav1 #nav1right #nav1right6 {
+	float: left;
+	height: 46px;
+	width: 80px;
+	margin-left: 20px;
+	font-size: 18px;
+	line-height: 50px;
+	background-image: url(2.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.a3 a:hover {
+	font-size: 14px;
+	line-height: 50px;
+	font-weight: bold;
+	color: #CC0000;
+	text-align: center;
+}
+.a3  {
+	font-size: 14px;
+	line-height: 50px;
+	font-weight: bold;
+	color: #666666;
+	text-align: center;
+}
+
+#nav2 {
+	background-image: url(3.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 801px;
+	width: 1200px;
+}
+#nav2 #nav21 {
+	float: left;
+	height: 70px;
+	width: 400px;
+	margin-top: 280px;
+	margin-left: 150px;
+}
+.b1 {
+	font-size: 45px;
+	line-height: 70px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#nav2 #nav22 {
+	float: none;
+	height: 35px;
+	width: 400px;
+	margin-left: 150px;
+	margin-top: 350px;
+}
+#nav2 #nav23 {
+	float: left;
+	height: 35px;
+	width: 400px;
+	margin-left: 150px;
+}
+.b2 {
+	font-size: 24px;
+	line-height: 35px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+#nav2 #nav24 {
+	height: 60px;
+	width: 300px;
+	margin-left: 150px;
+	float: left;
+	clear: both;
+	margin-top: 80px;
+	background-color: #CC0000;
+}
+.b3 {
+	font-size: 28px;
+	line-height: 60px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-align: center;
+	word-spacing: 20px;
+}
+#nav3 {
+	height: 50px;
+	width: 1100px;
+	margin-top: 30px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+	float: left;
+}
+#nav3 #nav31 {
+	background-image: url(4.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 275px;
+	height: 50px;
+	float: left;
+}
+#nav3 #nav32 {
+	background-image: url(5.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 275px;
+	height: 50px;
+	float: left;
+}
+#nav3 #nav33 {
+	background-image: url(6.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 275px;
+	height: 50px;
+	float: left;
+}
+#nav3 #nav34 {
+	background-image: url(7.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 275px;
+	height: 50px;
+	float: left;
+}
+#nav4 {
+	height: 70px;
+	width: 1120px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	float: left;
+}
+#nav4 #nav41 {
+	width: 273px;
+	height: 50px;
+	float: left;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #999999;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#nav4 #nav41 #nav411 {
+	width: 175px;
+	height: 20px;
+	float: left;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+.d1 {
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #999999;
+	text-align: center;
+}
+#nav4 #nav42 {
+	width: 273px;
+	height: 50px;
+	float: left;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #999999;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#nav4 #nav42 #nav422 {
+	width: 175px;
+	height: 20px;
+	float: left;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#nav4 #nav43 {
+	width: 273px;
+	height: 50px;
+	float: left;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #999999;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#nav4 #nav43 #nav433 {
+	width: 175px;
+	height: 20px;
+	float: left;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#nav4 #nav44 {
+	width: 275px;
+	height: 50px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#nav4 #nav44 #nav444 {
+	width: 175px;
+	height: 20px;
+	float: left;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#nav5 {
+	float: left;
+	height: 350px;
+	width: 1200px;
+	margin-top: 10px;
+	background-color: #F0F0F0;
+}
+#nav5 #nav51 {
+	background-image: url(8.png);
+	height: 111px;
+	width: 116px;
+	margin-top: 50px;
+	margin-right: 542px;
+	margin-bottom: 50px;
+	margin-left: 542px;
+}
+#nav5 #nav52 {
+	height: 60px;
+	width: 1100px;
+	margin-top: 10px;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	text-align: center;
+}
+.e {
+	color: #999999;
+	font-size: 45px;
+	line-height: 60px;
+	font-weight: bolder;
+}
+#nav6 {
+	height: 367px;
+	width: 1200px;
+	float: left;
+	background-image: url(3.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#nav6 #nav61 {
+	height: 40px;
+	width: 400px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+#nav6 #nav62 {
+	height: 20px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 450px;
+	text-align: center;
+}
+.f1 {
+	font-size: 14px;
+	line-height: 20px;
+	color: #999999;
+	font-weight: bold;
+}
+.f2 {
+	font-size: 24px;
+	line-height: 35px;
+	font-weight: bold;
+	color: #666666;
+}
+#nav6 #nav63 {
+	width: 1100px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 50px;
+	height: 40px;
+}
+#nav6 #nav63 #nav611 {
+	height: 40px;
+	float: left;
+	width: 255px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.f11 {
+	height: 30px;
+	width: 250px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}
+#nav6 #nav63 #nav622 {
+	height: 40px;
+	float: left;
+	width: 255px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#nav6 #nav63 #nav633 {
+	height: 40px;
+	float: left;
+	width: 255px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#nav6 #nav63 #nav644 {
+	height: 40px;
+	float: left;
+	width: 255px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.f44 {
+	color: #FFFFFF;
+	background-color: #990000;
+	width: 230px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	height: 30px;
+}
+#nav7 {
+	background-color: #F0F0F0;
+	height: 600px;
+	width: 1200px;
+	float: left;
+}
+#nav7 #nav71 {
+	float: left;
+	height: 419px;
+	width: 275px;
+	margin-left: 50px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.g1 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	line-height: 25px;
+	text-align: center;
+}
+.g2 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #666666;
+	line-height: 20px;
+	text-align: center;
+}
+#nav7 #nav72 {
+	float: left;
+	height: 419px;
+	width: 275px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+#nav7 #nav73 {
+	float: left;
+	height: 419px;
+	width: 275px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+#nav7 #nav74 {
+	float: left;
+	height: 419px;
+	width: 275px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-right: 50px;
+}
+.g3 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #000000;
+	line-height: 25px;
+	text-align: center;
+	letter-spacing: 1.5em;
+}
+#nav9 {
+	float: left;
+	height: 600px;
+	width: 1200px;
+}
+#nav9 #nav91 {
+	float: left;
+	height: 600px;
+	width: 800px;
+	background-image: url(31.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#nav9 #nav91 #nav911 {
+	margin-top: 100px;
+	float: left;
+	height: 50px;
+	margin-right: 325px;
+	margin-left: 325px;
+	text-align: center;
+	width: 150px;
+}
+.h1 {
+	line-height: 50px;
+	font-size: 36px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-align: center;
+}
+#nav9 #nav91 #nav922 {
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+.h2 {
+	line-height: 100px;
+	font-size: 100px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 10px;
+}
+#nav9 #nav91 #nav933 {
+	width: 200px;
+	float: left;
+	margin-right: 300px;
+	margin-left: 300px;
+	height: 24px;
+	margin-top: 100px;
+}
+.h3 {
+	line-height: 24px;
+	font-size: 24px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-align: center;
+}
+#nav9 #nav91 #nav944 {
+	width: 200px;
+	float: left;
+	margin-right: 300px;
+	margin-left: 300px;
+	height: 24px;
+	margin-top: 20px;
+}
+#nav9 #nav92 {
+	float: left;
+	width: 400px;
+	height: 600px;
+}
+#nav9 #nav92 #top {
+	width: 200px;
+	margin-right: 100px;
+	margin-left: 100px;
+	height: 30px;
+	float: left;
+	padding-top: 200px;
+}
+.h4 {
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+	letter-spacing: 5px;
+}
+.h5 {
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #FF0000;
+	text-align: center;
+	letter-spacing: 5px;
+}
+#nav9 #nav92 #mid {
+	width: 300px;
+	margin-right: 30px;
+	margin-left: 70px;
+	float: left;
+	height: 150px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.h6 {
+	font-size: 12px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #999999;
+	height: 25px;
+	margin-bottom: 10px;
+}
+#nav9 #nav92 #foot {
+	width: 100px;
+	margin-right: 148px;
+	margin-left: 148px;
+	border: 1px solid #FF0000;
+	height: 30px;
+	float: left;
+}
+.h7 {
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	color: #FF0000;
+}
+#nav10 {
+	float: left;
+	height: 350px;
+	width: 1200px;
+}
+#nav10 #nav101 {
+	height: 500px;
+	width: 400px;
+	float: left;
+	background-color: #FF0000;
+}
+#nav10 #nav101 #nav1011 {
+	height: 30px;
+	width: 400px;
+	margin-top: 170px;
+	float: left;
+	text-align: center;
+}
+#nav10 #nav101 #nav1012 {
+	height: 30px;
+	width: 400px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+}
+#nav10 #nav101 #nav1013 {
+	height: 30px;
+	width: 400px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+}
+#nav10 #nav101 #nav1014 {
+	height: 24px;
+	width: 100px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	margin-right: 148px;
+	margin-left: 148px;
+	border: 1px solid #FFFFFF;
+}
+#nav10 #nav102 {
+	height: 500px;
+	width: 400px;
+	float: left;
+	background-color: #FFFFFF;
+}
+#nav10 #nav102 #nav1011 {
+	height: 30px;
+	width: 400px;
+	margin-top: 170px;
+	float: left;
+	text-align: center;
+}
+#nav10 #nav102 #nav1012 {
+	height: 30px;
+	width: 400px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+}
+#nav10 #nav102 #nav1013 {
+	height: 30px;
+	width: 400px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+}
+#nav10 #nav102 #nav1014 {
+	height: 24px;
+	width: 100px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	margin-right: 148px;
+	margin-left: 148px;
+	border: 1px solid #FF0000;
+}
+.h3Copy {
+	line-height: 24px;
+	font-size: 24px;
+	font-weight: bolder;
+	color: #000000;
+	text-align: center;
+}
+.h3Copy1 {
+	line-height: 24px;
+	font-size: 24px;
+	font-weight: bolder;
+	color: #FF0000;
+	text-align: center;
+}
+#nav10 #nav103 {
+	float: left;
+	height: 500px;
+	width: 400px;
+}
+#nav11 {
+	float: left;
+	height: 250px;
+	width: 1200px;
+	margin-top: 200px;
+}
+#nav11 #top {
+	float: left;
+	width: 400px;
+	margin-right: 400px;
+	margin-left: 400px;
+	height: 30px;
+	margin-top: 50px;
+}
+#nav11 #topp {
+	text-align: center;
+	float: left;
+	height: 30px;
+	width: 100px;
+	margin-right: 550px;
+	margin-left: 550px;
+}
+#nav11 #head {
+	float: left;
+	width: 600px;
+	margin-right: 300px;
+	margin-left: 300px;
+	text-align: center;
+	height: 20px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+#nav11 #foot {
+	float: left;
+	width: 600px;
+	margin-right: 300px;
+	margin-left: 300px;
+	text-align: center;
+	height: 20px;
+	margin-top: 5px;
+	margin-bottom: 70px;
+}
+#nav12 {
+	height: 600px;
+	width: 1100px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	float: left;
+}
+#nav12 #left {
+	height: 450px;
+	width: 350px;
+	margin-right: 50px;
+	float: left;
+}
+#nav12 #left #left1 {
+	height: 140px;
+	width: 350px;
+	margin-bottom: 10px;
+	float: left;
+}
+#nav12 #right {
+	float: left;
+	height: 450px;
+	width: 700px;
+}
+#nav12 #right #r1 {
+	background-color: #F0F0F0;
+	float: left;
+	height: 60px;
+	width: 330px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+}
+.i {
+	font-size: 18px;
+	line-height: 60px;
+	font-weight: bold;
+	color: #666666;
+	letter-spacing: 5px;
+}
+#nav12 #right #r2 {
+	height: 210px;
+	margin-bottom: 15px;
+	width: 680px;
+	margin-right: 20px;
+	float: left;
+	background-color: #F0F0F0;
+}
+#nav12 #right #r3 {
+	background-color: #F0F0F0;
+	float: left;
+	height: 60px;
+	width: 680px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+}
+.iCopy {
+	font-size: 20px;
+	line-height: 60px;
+	font-weight: bold;
+	color: #333333;
+	letter-spacing: 5px;
+}
+#nav13 {
+	float: left;
+	height: 400px;
+	width: 1200px;
+	background-color: #33363F;
+}
+#nav13 #top {
+	float: left;
+	width: 600px;
+	margin-top: 100px;
+	margin-right: 300px;
+	margin-left: 300px;
+	height: 80px;
+}
+.d1Copy {
+	font-size: 13px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #999999;
+	text-align: center;
+}
+#nav13 #mid1 {
+	float: left;
+	height: 30px;
+	width: 500px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 300px;
+}
+#nav13 #mid1 input {
+	height: 30px;
+	width: 500px;
+}
+#nav13 #mid2 {
+	float: left;
+	height: 30px;
+	width: 100px;
+	margin-top: 20px;
+	margin-right: 300px;
+	margin-bottom: 20px;
+}
+#nav13 #mid2 input {
+	background-color: #666666;
+	height: 30px;
+	width: 100px;
+	float: left;
+	font-size: 18px;
+	line-height: 30px;
+	color: #CCCCCC;
+	font-weight: bold;
+}
+#nav13 #foot {
+	float: left;
+	height: 50px;
+	width: 600px;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+#nav14 {
+	background-color: #333333;
+	float: left;
+	height: 30px;
+	width: 1200px;
+}
+.j {
+	font-size: 10px;
+	line-height: 30px;
+	color: #CCCCCC;
+	text-indent: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+
+<div id="nav1">
+<div class="a1" id="nav1left">新世界</div>
+<div class="a3" id="nav1right"><div id="nav1right1"><a href="#" class="a3">首页</div>
+<div class="a3"  id="nav1right2"><a href="#" class="a3">最新活动</div>
+<div class="a3"  id="nav1right3"><a href="#" class="a3">项目介绍</div>
+<div class="a3"  id="nav1right4"><a href="#" class="a3">爱心社区</a></div>
+<div class="a3"  id="nav1right5"><a href="#" class="a3">关于我们</a></div>
+<div class="a3"  id="nav1right6"><a href="#" class="a3">登录</a></div>
+</div>
+</div>
+<div id="nav2">
+<div class="b1" id="nav21">Time of new life</div>
+<div class="b2" id="nav22">新时代，年轻的人们让我们一起</div>
+<div class="b2" id="nav23">体验新生活，享受新生活</div>
+<div class="b3" id="nav24">开始体验</div>
+</div>
+<div id="nav3">
+<div id="nav31"></div><div id="nav32"></div><div id="nav33"></div><div id="nav34"></div>
+</div>
+<div id="nav4">
+<div id="nav41"><div class="d1" id="nav411">打造全新世界观，让你更爱你的生活</div></div>
+<div id="nav42"><div class="d1" id="nav422">丰富多彩的公益活动，发挥新世界的主人公意识</div></div><div id="nav43"><div class="d1" id="nav433">时尚的新理念，超前体验未知的生活</div></div><div id="nav44"><div class="d1" id="nav444">完善的培养机制，培养你全新的世界观</div></div>
+</div>
+<div class="e" id="nav5"><div id="nav51"></div><div id="nav52">关于新世界，你不知道的还有什么？</div></div>
+<div id="nav6">
+<div class="f2" id="nav61">查找新世界城市活动信息</div>
+<div class="f1" id="nav62">每个城市有不同的活动信息，请自主查询你所需要了解的城市</div>
+<div id="nav63">
+  <div id="nav611">
+
+      <div align="left">
+            <select name="" size="1" class="f11">
+              <option selected>中国</option>  
+              <option>美国</option>
+              <option>英国</option>
+            </select>
+      </div>
+  </div><div id="nav622">
+    <form name="form1" method="post" action="">
+      <select name="省份" size="1" class="f11" id="省份">
+        <option selected>北京市</option>
+        <option>天津市</option>
+        <option>河北省</option>
+        <option>陕西省</option>
+        <option>内蒙古自治区</option>
+        <option>辽宁省</option>
+      </select>
+    </form>
+    </div><div id="nav633">
+      <form name="form2" method="post" action="">
+        <label>
+        <select name="select" class="f11">
+          <option selected>城市</option>
+        </select>
+        </label>
+      </form>
+      </div><div id="nav644">
+        <form name="form3" method="post" action="">
+          <label>
+          <input name="Submit" type="submit" class="f44" value="搜    索">
+          </label>
+        </form>
+        </div></div>
+</div> 
+<div id="nav7">
+<div id="nav71">
+    <p align="center"><img src="9.png" width="241" height="374"></img></p>
+    <p class="g1">北京活动</p>
+    <p class="g2">新社区大联盟 </p>
+</div>
+<div id="nav72">
+    <p class="g3">上海活动</p>
+    <p class="g2">夜上海新景观探索 </p>
+	<p align="center"><img src="10.png" width="241" height="374"></img></p>
+</div>
+<div id="nav73">
+    <p align="center"><img src="11.png" width="241" height="374"></img></p>
+    <p class="g1">深圳活动</p>
+    <p class="g2">全新海岸线观景站 </p>
+</div>
+<div id="nav74">
+    <p align="center"><img src="12.png" width="241" height="374"></img></p>
+    <p class="g1">香港活动</p>
+    <p class="g2">奢侈消费大派送 </p>
+</div>
+</div>
+<div id="nav9">
+<div id="nav91"><div id="nav911"><p class="h1">新世界</p>
+</div>
+<div id="nav922"><p class="h2">TIME</p></div>
+<div id="nav933"><p class="h3">@新世界-北京</p></div>
+<div id="nav944"><p class="h3">2016.04.01</p></div>
+</div>
+<div id="nav92"><div id="top"><span class="h4">新世界/</span><span class="h5">01</span></div>
+<div class="h6" id="mid">新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界</div>
+<div class="h7" id="foot">更多详情</div>
+</div>
+</div>
+<div id="nav10">
+<div id="nav101"><div class="h3" id="nav1011">新时代</div>
+<div class="h3" id="nav1012">关于爱生活的我们</div><div class="h3" id="nav1013">--</div>
+<div class="h3" id="nav1014">查看更多</div>
+</div>
+<div id="nav102"><div class="h3Copy" id="nav1011">新时代</div>
+<div class="h3Copy" id="nav1012">关于爱生活的我们</div>
+<div class="h3Copy" id="nav1013">--</div>
+<div class="h3Copy1" id="nav1014">查看更多</div>
+</div>
+<div id="nav103"><img src="13.png"></img></div>
+</div>
+<div id="nav11"><div class="h4" id="top">成为我们的志愿者</div><div class="h5" id="topp">--</div>
+<div class="g2" id="head">新世界的大家庭需要每一个爱生活的人的加入，如果你够年轻，有梦想，有激情</div><div class="g2" id="foot">那就不要犹豫，快来加入我们，成为改变所有人生活的人</div>
+</div>
+<div id="nav12">
+<div id="left">
+  <div id="left1"><p class="f2">新世界志愿者协议</p>
+<p class="f1">加入新世界志愿者的人员必须遵守中国人民共和国的相关法律法规，并且本着平等自愿的原则……</p>
+<p align="right" class="h6">more</p>
+</div>
+<div id="left1"><p class="f2">新世界志愿者权利</p>
+<p class="f1">新世界志愿者享受新世界内部所有资源共享的权利，并且享受所在四新世界活动的优先参与资格</p>
+<p align="right" class="h6">more</p>
+</div>
+<div id="left1"><p class="f2">更多条款</p>
+<p align="right" class="h6">more</p>
+</div>
+</div>
+<div class="i" id="right">
+<div class="i" id="r1"> &nbsp;姓名：</div>
+<div class="i" id="r1">&nbsp;年龄：</div>
+<div id="r1"> &nbsp;联系方式：</div><div class="i" id="r1">&nbsp;联系地址：</div>
+<div id="r2">&nbsp;请简单描述你梦想的生活：</div>
+<div id="r3"> 
+  <div align="center">提交申请<span class="STYLE1"></span></div>
+</div>
+</div>
+</div>
+<div id="nav13">
+<div id="top"><p class="h3">联系我们</p>
+<p class="d1Copy">为了更好的获取我们最新的产品咨询，您可以留下您的电子邮箱快速订阅我们的产品资讯</p><p class="d1Copy">也可以通过以下任何方式关注我们动态</p></div>
+<div  id="mid1"><input type="text" class="h6" value="someone@email.com" size="">
+</div><div  id="mid2"><input type="submit" value="提交">
+</div>
+<div id="foot">
+  <div align="center"><img src="16.png"></div>
+  </img></div>
+</div>
+<div class="j" id="nav14">@2016新世界<span class="STYLE4"></span></div>
+</body>
+</html>
