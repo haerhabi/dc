@@ -1,0 +1,361 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>任务五</title>
+<style type="text/css">
+.img {
+	text-align: center;
+	padding: 5px;
+	float: left;
+	height: 90px;
+	width: 120px;	
+ }
+.div12 {
+display:flex;
+
+align-items: center;
+
+justify-content:center;
+
+}
+
+.div1 {
+	padding: 20px;
+	border-top-width: 1px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	width: 100%;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.div6{
+	background-color: #FFFFFF;
+	padding: 20px;
+	border-top-width: 1px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.div2 {
+	background-color: #333333;
+	height: 60px;
+	width: 100%;
+	margin-bottom: 20px;
+	padding-left: 20px;
+}
+.div4 {
+	float: right;
+}
+.div4 .list1 li {
+	float: left;
+	font-size: 14px;
+	color: #FFFFFF;
+	list-style-type: disc;
+	width: 95px;
+}
+.div4 .list1 a {
+	text-decoration: none;
+	display: block;
+	list-style-type: none;
+	color: #FFFFFF;
+}
+.div4 .list1 a:hover{
+	text-decoration: none;
+	display: block;
+	list-style-type: none;
+	color: #EAEAEA;
+}
+.list {
+	float: left;
+	width: 500px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	list-style-type: none;
+}
+.div9 {
+	width: 100%;
+	background-color: #333333;
+	height: 50px;
+	text-align: center;
+	padding-top: 30px;
+}
+.div1 .list3 {
+	list-style-type: none;
+}
+.table1 {
+	height: 100px;
+	width: 100%;
+	font-size: 12px;
+}
+.div9 span {
+	color: #EAEAEA;
+	text-align: center;
+}
+.div5 {
+	margin-top: 0px;
+	margin-right: 430px;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+.div7 {
+	width: 100%;
+	position:relative;
+}
+.span1 {
+	color: #CCCCCC;
+}
+.div3 {
+	float: left;
+	height: 53px;
+	width: 185px;
+}
+.div1 .img p {
+	margin-right: 5px;
+}
+.div1 .img .div8 {
+	padding-left: 24px;
+	margin-top: 2px;
+}
+.list1 {
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.STYLE1 {color: #FFFFFF}
+body,td,th {
+	font-family: 楷体;
+}
+p{text-indent:2em;}
+body {
+	background-color: #E6E6E6;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.div10 {
+	background-color: #FFFFFF;
+	padding: 10px;
+	border-top-width: 1px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	width: 320px;
+	position:absolute;
+	right:0;
+	top:0;
+}
+.div10 form {
+	margin-left: 10px;
+	width: 305px;
+}
+.input1 {
+	float: right;
+	font-size: 12px;
+}
+.div11 {
+margin:0;
+}
+.clearfix {
+  overflow: auto;
+}
+.ul1 {
+
+	height: 100%;
+	width: 100%;
+	clear: both;
+
+}
+.li1 {
+	float: left;
+	list-style-type: none;
+}
+</style>
+</head>
+
+<body>
+<div class="div2">
+<div class="div3"><img src="7.png" /></div>
+<div class="div4">
+<ul class="list1">
+	<li><a href="https://www.baidu.com/">导航链接一</a></li>
+	<li><a href="https://www.baidu.com/">导航链接二</a></li>
+	<li><a href="http://ife.baidu.com/">导航链接三</a></li>
+    <li><a href="http://ife.baidu.com/">导航链接四</a></li>
+</ul>
+</div>
+</div><!--div2-->
+
+<div class="div7">
+
+<div class="div10">
+<h2>用户注册</h2>
+<form method="post" action="save.php">
+    <label>请输入邮箱地址：</label><input type="text" name="email" class="input1"/>
+      <br />
+      <span class="span1">邮箱地址请按要求输入</span><br />
+       <label>请输入密码：</label> <input type="password" name="pass" class="input1"/><br />
+     <label>请重复输入密码：</label> <input type="password" name="pass2" class="input1" />
+    
+<br />
+      <span class="span1">密码为6-16位英文数字<br /></span>
+      <label>性别：</label>
+        <label>
+          <input type="radio" name="RadioGroup1" value="男" id="RadioGroup1_0" checked="checked" />
+          男</label>
+        <label>
+          <input type="radio" name="RadioGroup1" value="女" id="RadioGroup1_1" />
+          女</label><br />
+      <label> 城市：</label><select name="">
+         <option value="beijing" >北京</option>
+         <option value="hangzhou">杭州</option>
+       </select><br />
+      <label> 爱好：</label>
+      <label>
+      <input type="checkbox" name="checkbox3" value="科学" />科学 
+      <input type="checkbox" name="checkbox1" value="运动" />运动
+       <input type="checkbox" name="checkbox2" value="艺术" />艺术
+      
+              </label>
+       <br />
+       <label>个人描述：</label>
+        <textarea cols="20" rows='5'>这一个多行输入框，请输入你的描述</textarea>
+        <br />
+         <input type="submit" value="确认提交" name="submitBtn" />
+</form> 
+</div><!--div10-->
+
+<div class="div5">
+<div class="div1">
+<h2>文章一</h2>
+<h3>歌唱的树林</h3>
+<p>&nbsp;&nbsp;作者:静女其姝 时间2016-03-21 </p>
+<p>你的童年是否有一片茂密的小树林？假如你和我年纪相仿，</br>你也许和我一样是一个来自林间的孩子。我的村庄背后长着一片密密麻麻的松树林，</br>它们好像是乡村脊背上厚实的羽毛。那时的村庄，都有厚厚的羽毛，我们在这些羽毛的庇护下，活得快乐而恣肆。<a href="http://ife.baidu.com" >ife.baidu.com </a>不像现在，<strong>村庄楼林立，仅存的</strong>几棵树是景观树，它们稀稀烂烂的，像中年男人的秃顶。</p>
+<img src="3.jpg" width="300px" height="260px" />
+
+<p>
+在这片树林里，我们可以消磨一整个夏天。树林的东边，<strong>有一条长长的</strong>水渠，水渠边上芦苇摇曳。不打柴的时候，我会找一个茂密的所在钻进去，一个人躲在芦苇里，藏起来，没有人知道我去了哪里。水渠的尽头有个机埠，灌溉农田的水要通过机埠输送到水渠里，水渠又成了孩子们洗澡的乐园。<a href="http://ife.baidu.com" target="_blank">ife.baidu.com </a></p>
+
+<p>
+这是我的林子，它们曾经在天空下高亢激昂地合唱，它们也曾迎来一片片晶莹的雪花。</p>
+</div>
+
+
+<div class="div1">
+<h2>文章二<h2>
+<h3>春之悟</h3>
+<p>&nbsp;&nbsp;作者:桃李年代育桃李  时间：2016-03-22</p>
+<p>一年之计在于春。春天是一个让人充满希望的季节，不管是丝丝春寒，还是绵绵春雨，都无法阻挡我们对它的向往。毕竟它的到来，能使江南绿，催人奋进。不过话又说回来，正真温暖起来的时候，<br />又是最易犯春困的时候，时常是“春眠不觉晓”，一副慵懒的样子。</p>
+
+<p>如此娇柔明媚的春天，是否温暖了你的心灵呢？只想说：面对世间万物总是有人欢喜有人愁，即便春天也不例外。眷恋春天的人是因为，温暖就陪伴着我们，春日就似一位年轻妈妈，双手抚摸着我们的脸，舒适温馨。埋怨春天的人则说：“绵绵春雨，何时方得休？”除此，“清明时节雨纷纷，路上行人欲断魂。”那惆怅情境，难免让人心生余悸。<a href="http://ife.baidu.com" >ife.baidu.com </a>如此诱人的春天，既让你不忘冬日的滋味，又让你识得东风的面目，诱你跌进温暖<strong>的梦乡，不经</strong>意间，又来个倒春寒，只有真正进入春天的时候，那冬日的寒冷才会躲开与我们作别，从此温暖相伴。</p>
+
+<p>长恨春归无觅处，不知转入此中来。如此春光美景，你还在等什么呢？我们一起出发，行走在路上，满城春光尽收眼底！</p>
+
+<img src="1.jpg" width="300px"  height="200px"/>
+</br>
+<ul class="list3">
+	<li>项目列表一</li>
+	<li>项目列表二</li>
+	<li>项目列表三</li>
+</ul>
+</div>
+
+<div class="div1 clearfix">
+<h3>图片</h3>
+<ul class="u1">
+	<li class="li1"><img src="1.jpg" width="120px"  height="90px"/></li>
+	<li class="li1"><img src="1.jpg" width="120px"  height="90px"/></li>
+    <li class="li1"><img src="1.jpg" width="120px"  height="90px"/></li>
+	<li class="li1"><img src="1.jpg" width="120px"  height="90px"/></li>
+    <li class="li1"><img src="1.jpg" width="120px"  height="90px"/></li>
+	<li class="li1"><img src="1.jpg" width="120px"  height="90px"/></li>
+    <li class="li1"><img src="1.jpg" width="120px"  height="90px"/></li>
+	<li class="li1"><img src="1.jpg" width="120px"  height="90px"/></li>
+    <li class="li1"><img src="1.jpg" width="120px"  height="90px"/></li>
+	<li class="li1"><img src="1.jpg" width="120px"  height="90px"/></li>
+</ul>
+</div>
+
+<div class="div1">
+<h2>文章三</h2>
+<h3>相约在春天</h3>
+<p>&nbsp;&nbsp;作者:汉水烟柳 时间:2016-03-21 </p>
+<ol>
+	<li>排名1</li>
+	<li>排名2</li>
+  <li>排名3</li>
+</ol>
+<div class="div11">
+<table class="table1">
+  <tr bgcolor="#333333" height="30px">
+    <td><span class="STYLE1">表头</span></td>
+    <td><span class="STYLE1">表头</span></td>
+    <td><span class="STYLE1">表头</span></td>
+  </tr>
+  <tr  height="30px">
+    <td height="19">表内容单元格</td>
+    <td>表内容单元格</td>
+    <td><a href="https://www.baidu.com">操作</a></td>
+  </tr>
+  <tr  height="30px">
+    <td>表内容单元格</td>
+    <td>表内容单元格</td>
+    <td><a href="https://www.baidu.com">操作</a></td>
+  </tr>
+  <tr  height="30px">
+    <td>表内容单元格</td>
+    <td>表内容单元格</td>
+    <td><a href="https://www.baidu.com">操作</a></td>
+  </tr>
+  <tr  height="30px">
+    <td>表内容单元格</td>
+    <td>表内容单元格</td>
+    <td><a href="https://www.baidu.com">操作</a></td>
+  </tr>
+  <tr bgcolor="#CCCCCC"  height="30px">
+    <td>总计</td>
+    <td colspan="2">1000</td>
+  </tr>
+</table>
+</div><!--div11-->
+</div><!--div1-->
+</div><!--div5-->
+</div><!--div7-->
+<div class="div9"><span>版权所有@大城小C2</span></div>
+</body>
+</html>
