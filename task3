@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>三栏式布局</title>
+<link href="1.3.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.STYLE4 {
+	font-size: large;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+
+<div id="left"><img src="无标题.png" width="80" /><span class="STYLE4">大城小C2</span></div>
+
+<div id="right">
+		<img src="1.png" width="80" height="80" /><img src="2.png" width="80" height="80" /><img src="3.png" width="80" height="80" />
+		<img src="5.png" width="80" height="80" />
+		<img src="4.png" width="80" height="80" /> </div>
+
+<div id="main"><h1>团队介绍</h1>	
+		<h2>小组介绍</h2>
+		<p>在宽广的中国有一座美丽的城市--杭州。在美丽的杭州有一所可爱的校园--浙江大学城市学院。在可爱的校园有一个温暖的分院--计算分院。没错，我们就是来自于浙江大学城市学院计算分院的五只妹子。都是信息管理专业哒，2个大三的学姐，3个大二的学妹。虽然大家都是新手啦，不过这样进步的空间才大嘛~</p>
+		<h2>组员介绍</h2>
+		<p>傅丽娜~孙佳君~陈蕴娴~张彬倩~吴思慈~</p>
+</div>
+</body>
+</html>
